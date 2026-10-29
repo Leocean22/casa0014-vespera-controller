@@ -55,3 +55,10 @@ All modules should share the same VCC and GND rails.
 
 The controller can be powered by USB or by a compatible 3.7 V rechargeable LiPo
 battery connected to the Arduino MKR WiFi 1010 battery connector.
+
+## Breadboard prototype
+
+The assembled breadboard prototype is shown below and can be used to reference
+and verify the physical wiring. 
+
+[![Complete breadboard](https://live.staticflickr.com/65535/55619123601_0e2255bd55_b.jpg)](https://www.flickr.com/photos/205099843@N04/55619123601/in/album-72177720336358707)
