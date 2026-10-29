@@ -10,7 +10,7 @@ Vespera uses an Arduino MKR1010 and NeoPixel LEDs to display colours received th
 
 ## About This Project
 
-This project is an Arduino-based physical controller for the Vespera light installation. It sends colour data to Vespera through MQTT, providing a tangible interface for interacting with the lights.
+This project is an Arduino-based physical controller (Arduino MKR WiFi 1010) for the Vespera light installation. It sends colour data to Vespera through MQTT, providing a tangible interface for interacting with the lights.
 
 More information about the original Vespera project can be found in the [CASA0014 Vespera documentation](https://github.com/ucl-casa-ce/casa0014/blob/main/vespera/readme.md).
 
