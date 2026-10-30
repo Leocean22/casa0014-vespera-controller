@@ -172,9 +172,9 @@ bool readSensorRGB(int &red, int &green, int &blue) {
   }
 
   // Reject very dark readings.
-  if (redPulse >= 600 &&
-      greenPulse >= 600 &&
-      bluePulse >= 600) {
+  if (redPulse >= DARK_PULSE_THRESHOLD &&
+      greenPulse >= DARK_PULSE_THRESHOLD &&
+      bluePulse >= DARK_PULSE_THRESHOLD) {
     printDetectedColor("DARK / NO VALID COLOR");
     return true;
   }
